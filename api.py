@@ -186,7 +186,7 @@ def spaceapi():
             , "lon": -122.419217
             , 'open' : True
             , 'status' : 'open for public -- just ring the buzzer'
-            , 'lastchange' : time.time() - 1222819200
+            , 'lastchange' : time.time()
             }
 
 @api_app.post('/audio/')
